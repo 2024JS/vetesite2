@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap');
+
+* {
+  font-family: "PT Sans", sans-serif;
+  font-size: 19px;
+}
+
+.bg-everything {
+  background-image: url("img/bg-everything.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+
+}
+
+.everything-title {
+  font-family: "Baloo 2", cursive;
+  font-size: 82px;
+  font-weight: bold;
+  line-height: 82px;
+
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bg {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+
+  &--best-quality {
+    background-image: url("img/bg-best.png");
+  }
+  &--getten {
+    background-image: url("img/bg-getten.png");
+  }
+}
+
+.bestq-wrapper{
+  margin-top: 350px;
+  margin-bottom: 50px;
+
+}
+
+.any-title {
+  font-family: "Baloo 2", cursive;
+  font-size: 50px;
+}
