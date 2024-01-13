@@ -15,6 +15,7 @@
   background-repeat: no-repeat;
   height: 1000px;
   background-size: 2000px 1000px;
+
   /*
   background-size: auto;
   background-repeat: no-repeat;
@@ -51,8 +52,8 @@
 .bestq-wrapper{
   margin-top: 60px;
   margin-bottom: 50px;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 0;
+  padding-right: 0;
 
 }
 
@@ -75,10 +76,24 @@
   border-radius: 70px;
 }
 
+.circle {
+  border-radius: 70px;
+}
+
 .card-wrapper {
   display: flex;
 }
 
 .card{
   margin: 0 .5em;
+}
+
+.carousel-any-p__title{
+  font-family: "Baloo 2", cursive;
+  font-size: 24px;
+}
+
+.carousel-any-p__subtitle{
+  font-size: 15px;
+  color: rgb(149, 139, 126) ;
 }
