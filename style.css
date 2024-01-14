@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap");
 @media (min-width: 768px) {
@@ -147,6 +148,44 @@
 .carousel-any-p__subtitle {
   font-size: 15px;
   color: rgb(149, 139, 126);
+}
+
+.we-care-img-container {
+  height: 618px;
+}
+
+/*
+.we-care-before-text{
+  position: relative;
+
+  !* Это важно, если псевдоэлемент нужно позиционировать относительно этого блока *!
+
+  &:before {
+    content: "";
+    !* В любом случае необходим, даже пустой. Иначе не будет работать *!
+
+    position: absolute;
+    left: -25px;
+    top: 0px;
+    color: aqua;
+
+    width: 30px;
+    height: 30px;
+
+    background-image: url('img/paw_ic_svg.svg');
+    fill: aqua;
+
+    background-size: 30px 30px;
+
+  }
+
+}*/
+.aqua {
+  color: aqua;
+}
+
+.we-care-bones {
+  max-height: 32px;
 }
 
 /*# sourceMappingURL=style.css.map */
