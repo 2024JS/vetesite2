@@ -186,4 +186,30 @@
   width: 26px;
 }
 
+.trending-carousel-card {
+  border: 0;
+}
+
+.trending-carousel-button {
+  background-color: #b2e7e9;
+  color: #45c1c7;
+  border: 0;
+}
+
+.save-bg-fish {
+  background-image: url("img/save-bg-fish.png");
+  background-position: center bottom;
+  height: 380px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.save-bg-toys {
+  background-image: url("img/save-bg-toys.png");
+  background-position: right center;
+  height: 380px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /*# sourceMappingURL=style.css.map */
