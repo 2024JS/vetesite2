@@ -44,12 +44,13 @@
   &--best-quality {
     background-image: url("img/bg-best.png");
   }
+
   &--getten {
     background-image: url("img/bg-getten.png");
   }
 }
 
-.bestq-wrapper{
+.bestq-wrapper {
   margin-top: 60px;
   margin-bottom: 50px;
   padding-left: 0;
@@ -62,12 +63,12 @@
   font-size: 50px;
 }
 
-.bestq-gap--left{
+.bestq-gap--left {
   margin-left: -15px;
   margin-right: 15px;
 }
 
-.bestq-gap--right{
+.bestq-gap--right {
   margin-left: 15px;
   margin-right: -15px;
 }
@@ -84,53 +85,63 @@
   display: flex;
 }
 
-.card{
+.card {
   margin: 0 .5em;
 }
 
-.carousel-any-p__title{
+.carousel-any-p__title {
   font-family: "Baloo 2", cursive;
   font-size: 24px;
 }
 
-.carousel-any-p__subtitle{
+.carousel-any-p__subtitle {
   font-size: 15px;
-  color: rgb(149, 139, 126) ;
+  color: rgb(149, 139, 126);
+}
+
+.we-care-bg-color {
+  background-color: #faf4f2!important;
 }
 
 .we-care-img-container {
-height: 618px;
+  height: 618px;
 }
-/*
-.we-care-before-text{
-  position: relative;
 
-  !* Это важно, если псевдоэлемент нужно позиционировать относительно этого блока *!
-
-  &:before {
-    content: "";
-    !* В любом случае необходим, даже пустой. Иначе не будет работать *!
-
-    position: absolute;
-    left: -25px;
-    top: 0px;
-    color: aqua;
-
-    width: 30px;
-    height: 30px;
-
-    background-image: url('img/paw_ic_svg.svg');
-    fill: aqua;
-
-    background-size: 30px 30px;
-
-  }
-
-}*/
-.aqua{
+.aqua {
   color: aqua;
 }
 
-.we-care-bones{
+.we-care-bones {
   max-height: 32px;
 }
+
+.we-care-svg {
+  &-container {
+    background-color: #ffe6d4;
+    width: 50px;
+    height: 50px;
+
+    > svg {
+      color: #ed6435;
+    }
+  }
+
+  &--car {
+    width: 26px;
+
+  }
+
+  &--box {
+    width: 50px;
+  }
+
+  &--card {
+    width: 50px;
+  }
+
+  &--micro {
+    width: 26px;
+  }
+
+}
+
