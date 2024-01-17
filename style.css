@@ -65,7 +65,6 @@
 }
 
 .bg-everything {
-  background-image: url("img/bg-everything.png");
   background-position: center 0;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -76,6 +75,10 @@
   background-repeat: no-repeat;
   width: 100%;
   height: auto;*/
+}
+
+.bg-dog-big {
+  background-image: url("img/bg-everything.png");
 }
 
 .everything-title {
@@ -273,6 +276,33 @@
 }
 .carousel-slick-orange .carousel-slick-orange__item--dokas {
   background-image: url("img/carousel-slick-one/dokas.webp");
+}
+
+.timer-container {
+  max-width: 450px;
+  flex-wrap: nowrap;
+}
+.timer-container .timer {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  width: 93px;
+  height: 93px;
+  margin: 0 10px 0 10px;
+}
+
+.bg-cat-week {
+  background-image: url("img/bg_cat_week.png");
+  background-position: center 0;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  height: 1000px;
+  background-size: 2000px 1000px;
+}
+
+.cat-week__promotion {
+  color: #45c1c7;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */

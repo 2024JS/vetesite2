@@ -8,20 +8,20 @@
 }
 
 .bg-everything {
-
-  background-image: url("img/bg-everything.png");
   background-position: center 0;
   overflow: hidden;
   background-repeat: no-repeat;
   height: 1000px;
   background-size: 2000px 1000px;
-
   /*
   background-size: auto;
   background-repeat: no-repeat;
   width: 100%;
   height: auto;*/
+}
 
+.bg-dog-big {
+  background-image: url("img/bg-everything.png");
 }
 
 .everything-title {
@@ -145,8 +145,8 @@
 
 }
 
-.carousel-slick-trend{
-  .slick-prev:before, .slick-next:before{
+.carousel-slick-trend {
+  .slick-prev:before, .slick-next:before {
     color: black;
   }
 }
@@ -161,7 +161,7 @@
   border: 0;
 }
 
-.save-bg-fish{
+.save-bg-fish {
   background-image: url("img/save-bg-fish.png");
   background-position: center bottom;
   height: 380px;
@@ -169,7 +169,7 @@
   background-repeat: no-repeat;
 }
 
-.save-bg-toys{
+.save-bg-toys {
   background-image: url("img/save-bg-toys.png");
   background-position: center center;
   height: 380px;
@@ -180,20 +180,20 @@
   padding: 40px 0 40px 40px;
 }
 
-.carousel-slick-orange{
+.carousel-slick-orange {
   margin: auto;
   max-width: 90%;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
 
-/*  button{
-    background-color: black;
-  }
-  button:hover{
-    background-color:   black;
-  }*/
-  .slick-prev:before, .slick-next:before{
+  /*  button{
+      background-color: black;
+    }
+    button:hover{
+      background-color:   black;
+    }*/
+  .slick-prev:before, .slick-next:before {
     color: black;
   }
 
@@ -201,13 +201,13 @@
     width: 165px;
     height: 91px;
     margin: 10px;
-    display: flex!important;
+    display: flex !important;
     justify-content: center;
     align-items: center;
     background-color: #ffe6d4;
   }
 
-  .carousel-slick-orange__item{
+  .carousel-slick-orange__item {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -217,25 +217,62 @@
     text-align: center;
   }
 
-  .carousel-slick-orange__item--applaws{
+  .carousel-slick-orange__item--applaws {
     background-image: url("img/carousel-slick-one/applaws.webp");
   }
-  .carousel-slick-orange__item--tigerino{
+
+  .carousel-slick-orange__item--tigerino {
     background-image: url("img/carousel-slick-one/tigerino.webp");
   }
-  .carousel-slick-orange__item--gourmlet{
+
+  .carousel-slick-orange__item--gourmlet {
     background-image: url("img/carousel-slick-one/gourmlet.webp");
   }
-  .carousel-slick-orange__item--felix{
+
+  .carousel-slick-orange__item--felix {
     background-image: url("img/carousel-slick-one/felix.webp");
   }
-  .carousel-slick-orange__item--purizon{
+
+  .carousel-slick-orange__item--purizon {
     background-image: url("img/carousel-slick-one/purizon.webp");
   }
-  .carousel-slick-orange__item--rocco{
+
+  .carousel-slick-orange__item--rocco {
     background-image: url("img/carousel-slick-one/rocco.webp");
   }
-  .carousel-slick-orange__item--dokas{
+
+  .carousel-slick-orange__item--dokas {
     background-image: url("img/carousel-slick-one/dokas.webp");
   }
+}
+
+
+.timer-container {
+  max-width: 450px;
+  flex-wrap: nowrap;
+
+
+  .timer {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    width: 93px;
+    height: 93px;
+    margin: 0 10px 0 10px;
+  }
+}
+
+.bg-cat-week {
+
+  background-image: url("img/bg_cat_week.png");
+  background-position: center 0;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  height: 1000px;
+  background-size: 2000px 1000px;
+}
+
+.cat-week__promotion {
+  color: #45c1c7;
+  font-size: 16px;
 }
