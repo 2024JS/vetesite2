@@ -186,6 +186,10 @@
   width: 26px;
 }
 
+.carousel-slick-trend .slick-prev:before, .carousel-slick-trend .slick-next:before {
+  color: black;
+}
+
 .trending-carousel-card {
   border: 0;
 }
@@ -206,13 +210,16 @@
 
 .save-bg-toys {
   background-image: url("img/save-bg-toys.png");
-  background-position: right center;
+  background-position: center center;
   height: 380px;
   background-size: cover;
   background-repeat: no-repeat;
+  display: grid;
+  align-content: space-around;
+  padding: 40px 0 40px 40px;
 }
 
-.carousel-slick {
+.carousel-slick-orange {
   margin: auto;
   max-width: 90%;
   box-sizing: border-box;
@@ -225,10 +232,10 @@
       background-color:   black;
     }*/
 }
-.carousel-slick .slick-prev:before, .carousel-slick .slick-next:before {
+.carousel-slick-orange .slick-prev:before, .carousel-slick-orange .slick-next:before {
   color: black;
 }
-.carousel-slick .carousel-slick__container {
+.carousel-slick-orange .carousel-slick-orange__container {
   width: 165px;
   height: 91px;
   margin: 10px;
@@ -237,8 +244,7 @@
   align-items: center;
   background-color: #ffe6d4;
 }
-.carousel-slick .carousel-slick__item {
-  background-image: url("img/trolf.jpg");
+.carousel-slick-orange .carousel-slick-orange__item {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -247,25 +253,25 @@
   position: relative;
   text-align: center;
 }
-.carousel-slick .carousel-slick__item--applaws {
+.carousel-slick-orange .carousel-slick-orange__item--applaws {
   background-image: url("img/carousel-slick-one/applaws.webp");
 }
-.carousel-slick .carousel-slick__item--tigerino {
+.carousel-slick-orange .carousel-slick-orange__item--tigerino {
   background-image: url("img/carousel-slick-one/tigerino.webp");
 }
-.carousel-slick .carousel-slick__item--gourmlet {
+.carousel-slick-orange .carousel-slick-orange__item--gourmlet {
   background-image: url("img/carousel-slick-one/gourmlet.webp");
 }
-.carousel-slick .carousel-slick__item--felix {
+.carousel-slick-orange .carousel-slick-orange__item--felix {
   background-image: url("img/carousel-slick-one/felix.webp");
 }
-.carousel-slick .carousel-slick__item--purizon {
+.carousel-slick-orange .carousel-slick-orange__item--purizon {
   background-image: url("img/carousel-slick-one/purizon.webp");
 }
-.carousel-slick .carousel-slick__item--rocco {
+.carousel-slick-orange .carousel-slick-orange__item--rocco {
   background-image: url("img/carousel-slick-one/rocco.webp");
 }
-.carousel-slick .carousel-slick__item--dokas {
+.carousel-slick-orange .carousel-slick-orange__item--dokas {
   background-image: url("img/carousel-slick-one/dokas.webp");
 }
 
