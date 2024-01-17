@@ -305,4 +305,10 @@
   font-size: 16px;
 }
 
+.top-recommendations__panel-container {
+  display: grid;
+  justify-content: center;
+  border-bottom: black;
+}
+
 /*# sourceMappingURL=style.css.map */
