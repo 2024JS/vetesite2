@@ -218,27 +218,55 @@
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  /*button{
-    background-color: black;
-  }
-  button:hover{
-    background-color:   black;
-  }*/
+  /*  button{
+      background-color: black;
+    }
+    button:hover{
+      background-color:   black;
+    }*/
+}
+.carousel-slick .slick-prev:before, .carousel-slick .slick-next:before {
+  color: black;
 }
 .carousel-slick .carousel-slick__container {
-  width: 200px;
-  height: 200px;
+  width: 165px;
+  height: 91px;
   margin: 10px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffe6d4;
 }
 .carousel-slick .carousel-slick__item {
   background-image: url("img/trolf.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
-  height: 100%;
+  width: 105px;
+  height: 50px;
   position: relative;
   text-align: center;
+}
+.carousel-slick .carousel-slick__item--applaws {
+  background-image: url("img/carousel-slick-one/applaws.webp");
+}
+.carousel-slick .carousel-slick__item--tigerino {
+  background-image: url("img/carousel-slick-one/tigerino.webp");
+}
+.carousel-slick .carousel-slick__item--gourmlet {
+  background-image: url("img/carousel-slick-one/gourmlet.webp");
+}
+.carousel-slick .carousel-slick__item--felix {
+  background-image: url("img/carousel-slick-one/felix.webp");
+}
+.carousel-slick .carousel-slick__item--purizon {
+  background-image: url("img/carousel-slick-one/purizon.webp");
+}
+.carousel-slick .carousel-slick__item--rocco {
+  background-image: url("img/carousel-slick-one/rocco.webp");
+}
+.carousel-slick .carousel-slick__item--dokas {
+  background-image: url("img/carousel-slick-one/dokas.webp");
 }
 
 /*# sourceMappingURL=style.css.map */
