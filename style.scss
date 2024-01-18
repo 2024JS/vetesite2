@@ -263,7 +263,6 @@
 }
 
 .bg-cat-week {
-
   background-image: url("img/bg_cat_week.png");
   background-position: center 0;
   overflow: hidden;
@@ -281,4 +280,24 @@
 display: grid;
   justify-content: center;
   border-bottom: black;
+}
+
+.top-recommendations__cat-bg{
+  background-image: url("img/top-reco-cat-videoo.png");
+  background-position: center center;
+  min-height: 230px;
+  height: 510px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.top-recommendations__promo-bg{
+  background-image: url("img/top-reco-bannerfood.png");
+  background-position: right center;
+  height: 510px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  align-content: space-around;
+  padding: 40px 0 40px 40px;
 }
