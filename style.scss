@@ -301,3 +301,21 @@ display: grid;
   align-content: space-around;
   padding: 40px 0 40px 40px;
 }
+
+.carousel-slick-testimonials {
+  margin: auto;
+  max-width: 90%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+
+  /*  button{
+      background-color: black;
+    }
+    button:hover{
+      background-color:   black;
+    }*/
+  .slick-prev:before, .slick-next:before {
+    color: black;
+  }
+}
