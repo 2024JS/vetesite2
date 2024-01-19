@@ -2,6 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap');
 @import "carousel-any-p";
 
+:root {
+  --we-care-bg-color:#faf4f2 !important; ;
+  --we-care-svg-container: #ffe6d4;
+  --we-care-svg-container--img: #ed6435;
+
+}
+
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 19px;
@@ -101,7 +108,7 @@ body {
 }
 
 .we-care-bg-color {
-  background-color: #faf4f2 !important;
+  background-color: variable-exists(--we-care-bg-color);
 }
 
 .we-care-img-container {
@@ -118,12 +125,12 @@ body {
 
 .we-care-svg {
   &-container {
-    background-color: #ffe6d4;
+    background-color: variable-exists(--we-care-svg-container);
     width: 50px;
     height: 50px;
 
     > svg {
-      color: #ed6435;
+      color: variable-exists(--we-care-svg-container--img);
     }
   }
 
