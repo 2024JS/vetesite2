@@ -63,6 +63,8 @@
   --we-care-bg-color:#faf4f2 !important;
   --we-care-svg-container: #ffe6d4;
   --we-care-svg-container--img: #ed6435;
+  --trending-carousel-button-bg: #b2e7e9;
+  --trending-carousel-button-bg-c: #45c1c7;
 }
 
 body {
@@ -204,8 +206,8 @@ body {
 }
 
 .trending-carousel-button {
-  background-color: #b2e7e9;
-  color: #45c1c7;
+  background-color: false;
+  color: false;
   border: 0;
 }
 
@@ -251,7 +253,7 @@ body {
   display: flex !important;
   justify-content: center;
   align-items: center;
-  background-color: #ffe6d4;
+  background-color: false;
 }
 .carousel-slick-orange .carousel-slick-orange__item {
   background-size: contain;
@@ -374,8 +376,8 @@ body {
   background-color: #f4e6e2 !important;
 }
 .footer__button {
-  background-color: #ffe6d4 !important;
-  border-color: #ffe6d4 !important;
+  background-color: false;
+  border-color: false;
   color: #ed6435;
 }
 
