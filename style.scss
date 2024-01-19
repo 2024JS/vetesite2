@@ -10,7 +10,9 @@
   --trending-carousel-button-bg: #b2e7e9;
   --trending-carousel-button-bg-c: #45c1c7;
 
-
+  --footer-number-title-color: #ed6435;
+  --footer-created-wrapper: #f2e8e4;
+  --footer-input: #f4e6e2!important;
 }
 
 body {
@@ -337,10 +339,10 @@ display: grid;
   &__number-title{
     font-size: 50px;
     font-family: "Baloo 2", cursive;
-    color: #ed6435;
+    color: variable-exists(--footer-number-title-color);
   }
   &__created-wrapper{
-    background-color: #f2e8e4;
+    background-color: variable-exists(--footer-created-wrapper);
 
   }
   &__subtitle{
@@ -348,7 +350,7 @@ display: grid;
     font-family: "Baloo 2", cursive;
   }
   &__input{
-    background-color: #f4e6e2!important;
+    background-color: variable-exists(--footer-input);
   }
 
   &__button {

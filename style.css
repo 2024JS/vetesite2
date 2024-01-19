@@ -65,6 +65,9 @@
   --we-care-svg-container--img: #ed6435;
   --trending-carousel-button-bg: #b2e7e9;
   --trending-carousel-button-bg-c: #45c1c7;
+  --footer-number-title-color: #ed6435;
+  --footer-created-wrapper: #f2e8e4;
+  --footer-input: #f4e6e2!important;
 }
 
 body {
@@ -363,17 +366,17 @@ body {
 .footer__number-title {
   font-size: 50px;
   font-family: "Baloo 2", cursive;
-  color: #ed6435;
+  color: false;
 }
 .footer__created-wrapper {
-  background-color: #f2e8e4;
+  background-color: false;
 }
 .footer__subtitle {
   font-size: 24px;
   font-family: "Baloo 2", cursive;
 }
 .footer__input {
-  background-color: #f4e6e2 !important;
+  background-color: false;
 }
 .footer__button {
   background-color: false;
