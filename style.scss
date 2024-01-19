@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap');
 @import "carousel-any-p";
 
-* {
+body {
   font-family: "PT Sans", sans-serif;
   font-size: 19px;
 }
@@ -317,5 +317,32 @@ display: grid;
     }*/
   .slick-prev:before, .slick-next:before {
     color: black;
+  }
+}
+
+.footer {
+  font-family: "PT Sans", sans-serif;
+  font-size: 15px;
+  &__number-title{
+    font-size: 50px;
+    font-family: "Baloo 2", cursive;
+    color: #ed6435;
+  }
+  &__created-wrapper{
+    background-color: #f2e8e4;
+
+  }
+  &__subtitle{
+    font-size: 24px;
+    font-family: "Baloo 2", cursive;
+  }
+  &__input{
+    background-color: #f4e6e2!important;
+  }
+
+  &__button {
+    background-color: #ffe6d4!important;
+    border-color: #ffe6d4!important;
+    color: #ed6435;
   }
 }

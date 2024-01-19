@@ -59,7 +59,7 @@
     visibility: visible;
   }
 }
-* {
+body {
   font-family: "PT Sans", sans-serif;
   font-size: 19px;
 }
@@ -293,7 +293,7 @@
 
 .bg-cat-week {
   background-image: url("img/bg_cat_week.png");
-  background-position: right 0;
+  background-position: center 0;
   overflow: hidden;
   background-repeat: no-repeat;
   height: 1000px;
@@ -346,6 +346,31 @@
 }
 .carousel-slick-testimonials .slick-prev:before, .carousel-slick-testimonials .slick-next:before {
   color: black;
+}
+
+.footer {
+  font-family: "PT Sans", sans-serif;
+  font-size: 15px;
+}
+.footer__number-title {
+  font-size: 50px;
+  font-family: "Baloo 2", cursive;
+  color: #ed6435;
+}
+.footer__created-wrapper {
+  background-color: #f2e8e4;
+}
+.footer__subtitle {
+  font-size: 24px;
+  font-family: "Baloo 2", cursive;
+}
+.footer__input {
+  background-color: #f4e6e2 !important;
+}
+.footer__button {
+  background-color: #ffe6d4 !important;
+  border-color: #ffe6d4 !important;
+  color: #ed6435;
 }
 
 /*# sourceMappingURL=style.css.map */
