@@ -9,7 +9,7 @@ function myFunction(x) {
 
         });
     } else {
-        $('.carousel-slick-orange').slick({
+        $('.carousel-slick-testimonials').slick({
             dots: false,
             infinite: true,
             speed: 300,
