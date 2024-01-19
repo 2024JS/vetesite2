@@ -3,16 +3,15 @@
 @import "carousel-any-p";
 
 :root {
-  --we-care-bg-color:#faf4f2 !important; ;
+  --we-care-bg-color:#faf4f2!important;
   --we-care-svg-container: #ffe6d4;
-  --we-care-svg-container--img: #ed6435;
+  --we-care-svg-container--img: #ed6435!important;
 
   --trending-carousel-button-bg: #b2e7e9;
   --trending-carousel-button-bg-c: #45c1c7;
 
-  --footer-number-title-color: #ed6435;
   --footer-created-wrapper: #f2e8e4;
-  --footer-input: #f4e6e2!important;
+
 }
 
 body {
@@ -114,7 +113,7 @@ body {
 }
 
 .we-care-bg-color {
-  background-color: variable-exists(--we-care-bg-color);
+  background-color: #faf4f2!important;;
 }
 
 .we-care-img-container {
@@ -339,7 +338,7 @@ display: grid;
   &__number-title{
     font-size: 50px;
     font-family: "Baloo 2", cursive;
-    color: variable-exists(--footer-number-title-color);
+    color: variable-exists(--we-care-svg-container--img);
   }
   &__created-wrapper{
     background-color: variable-exists(--footer-created-wrapper);
@@ -356,6 +355,6 @@ display: grid;
   &__button {
     background-color: variable-exists(--we-care-svg-container);
     border-color: variable-exists(--we-care-svg-container);
-    color: #ed6435;
+    color: variable-exists(--we-care-svg-container--img);
   }
 }
