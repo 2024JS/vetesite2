@@ -62,7 +62,7 @@
 :root {
   --we-care-bg-color: #faf4f2 !important;
   --we-care-svg-container: #ffe6d4;
-  --we-care-svg-container--img: #ed6435 !important;
+  --we-care-svg-container-img: #ed6435 !important;
   --trending-carousel-button-bg: #b2e7e9;
   --trending-carousel-button-bg-c: #45c1c7;
   --footer-created-wrapper: #f2e8e4;
@@ -173,7 +173,7 @@ body {
   height: 50px;
 }
 .we-care-svg-container > svg {
-  color: var(--we-care-svg-container--img);
+  color: var(--we-care-svg-container-img);
 }
 .we-care-svg--car {
   width: 26px;
@@ -354,7 +354,7 @@ body {
 .footer__number-title {
   font-size: 50px;
   font-family: "Baloo 2", cursive;
-  color: var(--we-care-svg-container--img);
+  color: var(--we-care-svg-container-img);
 }
 .footer__created-wrapper {
   background-color: var(--footer-created-wrapper);
@@ -369,7 +369,7 @@ body {
 .footer__button {
   background-color: var(--we-care-svg-container);
   border-color: var(--we-care-svg-container);
-  color: var(--we-care-svg-container--img);
+  color: var(--we-care-svg-container-img);
 }
 
 @media (max-width: 450px) {
