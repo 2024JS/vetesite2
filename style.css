@@ -125,16 +125,6 @@ body {
   font-size: 50px;
 }
 
-.bestq-gap--left {
-  margin-left: -15px;
-  margin-right: 15px;
-}
-
-.bestq-gap--right {
-  margin-left: 15px;
-  margin-right: -15px;
-}
-
 .btn-pill {
   border-radius: 70px;
 }
@@ -196,6 +186,18 @@ body {
 }
 .we-care-svg--micro {
   width: 26px;
+}
+
+.slick-prev {
+  color: black;
+  z-index: 2 !important;
+  left: -5px !important;
+}
+
+.slick-next {
+  color: black;
+  z-index: 2 !important;
+  right: -5px !important;
 }
 
 .carousel-slick-trend .slick-prev:before, .carousel-slick-trend .slick-next:before {
@@ -380,6 +382,26 @@ body {
   background-color: false;
   border-color: false;
   color: false;
+}
+
+@media (max-width: 450px) {
+  .any-title {
+    font-size: 35px;
+  }
+  .everything-title {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+@media (min-width: 450px) {
+  .bestq-gap--left {
+    margin-left: -15px;
+    margin-right: 15px;
+  }
+  .bestq-gap--right {
+    margin-left: 15px;
+    margin-right: -15px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

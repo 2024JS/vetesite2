@@ -41,7 +41,6 @@ body {
   font-size: 82px;
   font-weight: bold;
   line-height: 82px;
-
 }
 
 .bold {
@@ -76,15 +75,6 @@ body {
 }
 
 
-.bestq-gap--left {
-  margin-left: -15px;
-  margin-right: 15px;
-}
-
-.bestq-gap--right {
-  margin-left: 15px;
-  margin-right: -15px;
-}
 
 .btn-pill {
   border-radius: 70px;
@@ -157,9 +147,22 @@ body {
 
 }
 
+.slick-prev {
+  color: black;
+  z-index: 2!important;
+  left: -5px!important;
+}
+
+.slick-next {
+  color: black;
+  z-index: 2!important;
+  right: -5px!important;
+}
+
 .carousel-slick-trend {
   .slick-prev:before, .slick-next:before {
     color: black;
+
   }
 }
 
@@ -288,6 +291,8 @@ body {
   font-size: 16px;
 }
 
+
+
 .top-recommendations__panel-container{
 display: grid;
   justify-content: center;
@@ -357,4 +362,27 @@ display: grid;
     border-color: variable-exists(--we-care-svg-container);
     color: variable-exists(--we-care-svg-container--img);
   }
+}
+
+@media (max-width: 450px) {
+  .any-title {
+    font-size: 35px;
+  }
+  .everything-title {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+
+@media (min-width: 450px) {
+  .bestq-gap--left {
+    margin-left: -15px;
+    margin-right: 15px;
+  }
+
+  .bestq-gap--right {
+    margin-left: 15px;
+    margin-right: -15px;
+  }
+  
 }
