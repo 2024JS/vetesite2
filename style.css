@@ -60,9 +60,9 @@
   }
 }
 :root {
-  --we-care-bg-color:#faf4f2!important;
+  --we-care-bg-color: #faf4f2 !important;
   --we-care-svg-container: #ffe6d4;
-  --we-care-svg-container--img: #ed6435!important;
+  --we-care-svg-container--img: #ed6435 !important;
   --trending-carousel-button-bg: #b2e7e9;
   --trending-carousel-button-bg-c: #45c1c7;
   --footer-created-wrapper: #f2e8e4;
@@ -239,12 +239,6 @@ body {
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  /*  button{
-      background-color: black;
-    }
-    button:hover{
-      background-color:   black;
-    }*/
 }
 .carousel-slick-orange .slick-prev:before, .carousel-slick-orange .slick-next:before {
   color: black;
@@ -348,12 +342,6 @@ body {
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  /*  button{
-      background-color: black;
-    }
-    button:hover{
-      background-color:   black;
-    }*/
 }
 .carousel-slick-testimonials .slick-prev:before, .carousel-slick-testimonials .slick-next:before {
   color: black;

@@ -28,7 +28,4 @@ myFunction(x);
 // Attach listener function on state changes
 x.addEventListener("change", function() {
     myFunction(x);
-
-
 });
-

@@ -3,9 +3,9 @@
 @import "carousel-any-p";
 
 :root {
-  --we-care-bg-color:#faf4f2!important;
+  --we-care-bg-color: #faf4f2 !important;
   --we-care-svg-container: #ffe6d4;
-  --we-care-svg-container--img: #ed6435!important;
+  --we-care-svg-container--img: #ed6435 !important;
 
   --trending-carousel-button-bg: #b2e7e9;
   --trending-carousel-button-bg-c: #45c1c7;
@@ -75,7 +75,6 @@ body {
 }
 
 
-
 .btn-pill {
   border-radius: 70px;
 }
@@ -103,7 +102,7 @@ body {
 }
 
 .we-care-bg-color {
-  background-color: #faf4f2!important;;
+  background-color: #faf4f2 !important;;
 }
 
 .we-care-img-container {
@@ -149,14 +148,14 @@ body {
 
 .slick-prev {
   color: black;
-  z-index: 2!important;
-  left: -5px!important;
+  z-index: 2 !important;
+  left: -5px !important;
 }
 
 .slick-next {
   color: black;
-  z-index: 2!important;
-  right: -5px!important;
+  z-index: 2 !important;
+  right: -5px !important;
 }
 
 .carousel-slick-trend {
@@ -202,12 +201,6 @@ body {
   display: flex;
   justify-content: space-between;
 
-  /*  button{
-      background-color: black;
-    }
-    button:hover{
-      background-color:   black;
-    }*/
   .slick-prev:before, .slick-next:before {
     color: black;
   }
@@ -261,11 +254,9 @@ body {
   }
 }
 
-
 .timer-container {
   max-width: 450px;
   flex-wrap: nowrap;
-
 
   .timer {
     display: grid;
@@ -291,15 +282,13 @@ body {
   font-size: 16px;
 }
 
-
-
-.top-recommendations__panel-container{
-display: grid;
+.top-recommendations__panel-container {
+  display: grid;
   justify-content: center;
   border-bottom: black;
 }
 
-.top-recommendations__cat-bg{
+.top-recommendations__cat-bg {
   background-image: url("img/top-reco-cat-videoo.png");
   background-position: center center;
   min-height: 230px;
@@ -308,7 +297,7 @@ display: grid;
   background-repeat: no-repeat;
 }
 
-.top-recommendations__promo-bg{
+.top-recommendations__promo-bg {
   background-image: url("img/top-reco-bannerfood.png");
   background-position: right center;
   height: 510px;
@@ -326,12 +315,6 @@ display: grid;
   display: flex;
   justify-content: space-between;
 
-  /*  button{
-      background-color: black;
-    }
-    button:hover{
-      background-color:   black;
-    }*/
   .slick-prev:before, .slick-next:before {
     color: black;
   }
@@ -340,20 +323,23 @@ display: grid;
 .footer {
   font-family: "PT Sans", sans-serif;
   font-size: 15px;
-  &__number-title{
+
+  &__number-title {
     font-size: 50px;
     font-family: "Baloo 2", cursive;
     color: variable-exists(--we-care-svg-container--img);
   }
-  &__created-wrapper{
-    background-color: variable-exists(--footer-created-wrapper);
 
+  &__created-wrapper {
+    background-color: variable-exists(--footer-created-wrapper);
   }
-  &__subtitle{
+
+  &__subtitle {
     font-size: 24px;
     font-family: "Baloo 2", cursive;
   }
-  &__input{
+
+  &__input {
     background-color: variable-exists(--footer-input);
   }
 
@@ -395,5 +381,4 @@ display: grid;
     margin-left: 15px;
     margin-right: -15px;
   }
-  
 }
