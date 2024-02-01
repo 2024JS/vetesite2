@@ -86,6 +86,11 @@ body {
   height: auto;*/
 }
 
+@media (min-width: 1999px) {
+  .bg-everything {
+    background-size: cover;
+  }
+}
 .bg-dog-big {
   background-image: url("img/bg-everything.png");
 }
